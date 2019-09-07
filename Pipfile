@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask-restplus = "*"
+requests = "*"
+gevent = "*"
+python-dateutil = "*"
+flask-cors = "*"
+python-dotenv = "*"
+redis = "*"
+pycrypto = "*"
+flask-log-request-id = "*"
+apscheduler = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+"boto3" = "*"
+"psycopg2" = "*"
+"bs4" = "*"
+lxml = "*"
+
+[dev-packages]
+ipdb = "*"
+
+[requires]
+python_version = "3.6"
